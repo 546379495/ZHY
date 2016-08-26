@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    >
+    <com.chengguo.zhy.views.NoScrolViewPager
+        android:id="@+id/vp_content"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" >
+    </com.chengguo.zhy.views.NoScrolViewPager>
+    
+    <RadioGroup 
+        android:id="@+id/rg_group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@color/lan"
+        >
+        <RadioButton 
+            android:id="@+id/rb_shouye"
+            style="@style/ButtonTabStyle"
+            android:drawableTop="@mipmap/shouye"
+            android:text="首页"
+            android:textSize="9sp"
+            />
+        <RadioButton 
+            android:id="@+id/rb_renmai"
+            style="@style/ButtonTabStyle"
+            android:drawableTop="@mipmap/renmai"
+            android:text="人脉"
+            android:textSize="9sp"
+            />
+        <RadioButton 
+             android:id="@+id/rb_gongzuo"
+            style="@style/ButtonTabStyle"
+            android:drawableTop="@mipmap/gongzuo"
+            android:text="工作"
+             android:textSize="9sp"
+            />
+        <RadioButton 
+             android:id="@+id/rb_faxian"
+            style="@style/ButtonTabStyle"
+            android:drawableTop="@mipmap/faxian"
+            android:text="发现"
+             android:textSize="9sp"
+            />
+        <RadioButton 
+             android:id="@+id/rb_wode"
+            style="@style/ButtonTabStyle"
+            android:drawableTop="@mipmap/wode"
+            android:text="我的"
+             android:textSize="9sp"
+            />
+    </RadioGroup>
+
+</LinearLayout>
