@@ -1,17 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
               android:orientation="vertical"
-              android:layout_width="72dp"
-              android:layout_margin="3dp"
-              android:layout_height="72dp"
-              android:background="#440000"
+              android:layout_width="90dp"
+              android:layout_height="70dp"
+              android:background="#f2f2f2"
     >
 
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@mipmap/shuifei"
+        android:scaleType="fitXY"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+
+        />
     <TextView
         android:id="@+id/tv"
-        android:layout_width="72dp"
-        android:layout_height="match_parent"
-        android:gravity="center"
-        android:textColor="#ffffff"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#666666"
+        android:textSize="12sp"
+        android:layout_gravity="center_horizontal"
+        android:text="物业费"
+        android:layout_marginTop="5dp"
         />
 </LinearLayout>

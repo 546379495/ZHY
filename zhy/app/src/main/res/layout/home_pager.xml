@@ -4,12 +4,70 @@
               android:layout_width="match_parent"
               android:layout_height="match_parent">
 
+    <com.chengguo.zhy.views.MyScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="none"
+        >
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    >
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/home_viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        >
+    </android.support.v4.view.ViewPager>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        >
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="园区最新发布信息"
+            android:textSize="15sp"
+            android:textColor="#63595c"
+            android:layout_marginLeft="5dp"
+            />
+
+    </LinearLayout>
+
     <android.support.v7.widget.RecyclerView
         android:id="@+id/rv"
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
-
-
     </android.support.v7.widget.RecyclerView>
+
+    <com.chengguo.zhy.views.MyGridView
+        android:id="@+id/list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:numColumns="1"
+        android:horizontalSpacing="8dp"
+        android:verticalSpacing="5dp"
+        android:focusable="false"
+        >
+
+    </com.chengguo.zhy.views.MyGridView>
+
+
+
+</LinearLayout>
+
+
+    </com.chengguo.zhy.views.MyScrollView>
+
+
 
 </LinearLayout>

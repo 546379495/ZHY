@@ -48,7 +48,7 @@ private OnItemClickListener mOnItemClickListener;
 
     @Override
     public void onBindViewHolder(final MyViewHolder holder, final int position) {
-         holder.tv.setText(mDatas.get(position));
+//         holder.tv.setText(mDatas.get(position));
 
 
             holder.itemView.setOnClickListener(new View.OnClickListener() {
