@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xAlertDialogLibrary/xAlertDialogLibrary.iml" filepath="$PROJECT_DIR$/xAlertDialogLibrary/xAlertDialogLibrary.iml" />
       <module fileurl="file://$PROJECT_DIR$/zhy.iml" filepath="$PROJECT_DIR$/zhy.iml" />
     </modules>
   </component>

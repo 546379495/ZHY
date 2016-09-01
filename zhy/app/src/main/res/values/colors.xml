@@ -5,4 +5,7 @@
     <color name="colorAccent">#FF4081</color>
     <color name="lv">#FF4081</color>
     <color name="lan">#03a9f4</color>
+
+    <color name="alertDialog_Progress_Color">#ff4c72dc</color>
+    <color name="alertDialog_Progress_hintColor">#40dcd8d5</color>
 </resources>

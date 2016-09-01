@@ -22,6 +22,7 @@ import com.squareup.okhttp.Response;
 import java.io.IOException;
 
 
+
 /**
  * Created by Administrator on 2016/5/25.
  */
@@ -32,11 +33,16 @@ public class BackgroundTask {
     Context context;
     String address;
     Handler handler;
-    int     type = 0;
+    int type = 0;
+
+
     public BackgroundTask(Context context, String address, Handler handler) {
         this.context = context;
         this.address = address;
         this.handler = handler;
+
+
+
     }
     //数据请求
     public void doInBackground() {
@@ -75,9 +81,11 @@ public class BackgroundTask {
 
 
     public void OkHttpGet(){
+
              //网络判断
         if (!isNetworkAvailable(context)){
             Toast.makeText(context,"当前网络不可用",Toast.LENGTH_LONG).show();
+
             return;
         }
 
