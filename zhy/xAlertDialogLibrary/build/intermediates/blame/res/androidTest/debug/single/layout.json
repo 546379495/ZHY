@@ -1,5 +1,13 @@
 [
     {
+        "merged": "D:\\Documents\\ZHY\\zhy\\xAlertDialogLibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\alert_dialog.xml",
+        "source": "D:\\Documents\\ZHY\\zhy\\xAlertDialogLibrary\\build\\intermediates\\bundles\\debug\\res\\layout\\alert_dialog.xml"
+    },
+    {
+        "merged": "D:\\Documents\\ZHY\\zhy\\xAlertDialogLibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\activity_main.xml",
+        "source": "D:\\Documents\\ZHY\\zhy\\xAlertDialogLibrary\\build\\intermediates\\bundles\\debug\\res\\layout\\activity_main.xml"
+    },
+    {
         "merged": "G:\\jiangbin\\yilaiku\\Myduihuak\\xAlertDialogLibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\activity_main.xml",
         "source": "G:\\jiangbin\\yilaiku\\Myduihuak\\xAlertDialogLibrary\\build\\intermediates\\bundles\\debug\\res\\layout\\activity_main.xml"
     },
