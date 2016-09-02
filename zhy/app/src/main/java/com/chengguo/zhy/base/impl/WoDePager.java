@@ -36,8 +36,7 @@ public class WoDePager extends BasePager {
 		shezhi.setOnClickListener(new View.OnClickListener() {
 			@Override
 			public void onClick(View view) {
-				SweetAlertDialog sweetAlertDialog= MyDialogTool.DengDai(mActivity,"");
-				sweetAlertDialog.show();
+
 
 			}
 		});
